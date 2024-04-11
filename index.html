@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>RUTH'S MENU</title>
+</head>
+<body>
+    <header>
+        <h1>It's not Just Food,Its an Experience</h1>
+        <p id="slogan"><em>Find the Best Food Around You</em></p>
+        <h2>MENU LIST</h2>
+        <nav>
+            <div id="Menu List">
+                <label for="category">Filter List by Category:</label>
+                    <select id="category">
+                        <option value="all">All</option>
+                        <option value="appetizers">Appetizers</option>
+                        <option value="main-courses">Main Courses</option>
+                        <option value="desserts">Desserts</option>
+                        <option value="drinks">Drinks</option>
+                    </select>
+                </div>
+        <ul>
+        <li>
+            <img src="Assets/coffee-7897414_1280.jpg" width="200" height="150" alt="">
+                <button class="update">Drinks</button>
+        </li>
+        <li>
+            <img src="Assets/pancakes-2139844_640.jpg" width="200" height="150" alt="">
+            <button class="update">Appetizer</button>
+        </li>
+        <li>
+           <img src="Assets/louis-hansel-t-t_CDKSlKg-unsplash.jpg" width="200" height="150" alt="">
+            <button class="update">Dessert</button>
+        </li>
+        <li>
+            <img src="Assets/Main Course Dishes.png" width="200" height="150" alt="">
+            <button class="update">Main Course</button>
+        </li>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Submit Order</button>
+          </div>
+        <h3>Customer Reviews</h3>
+          <ul id="review-list">
+        </ul>
+        <form id="review-form">
+          <label for="review">Your Review:</label>
+          <textarea id="review"></textarea>
+          <button type="submit">Add review</button>
+        </form>      
+        </nav>
+      </header>
+      <script src="script.js"></script>
+    </body>
+</html>
