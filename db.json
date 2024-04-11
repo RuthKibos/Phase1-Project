@@ -1,0 +1,42 @@
+{
+    "menu": [
+      {
+        "id": 1,
+        "name": "Grilled Chicken",
+        "description": "Tenderly Grilled Chicken,mouthwatering oven baked potatoes with rosemary.",
+        "price": 9.00,
+        "category": "main-courses"
+      },
+      {
+        "id": 2,
+        "name": "Cofee",
+        "description":"A delicious cup of coffee to kickstart your day.",
+        "price": 6.99,
+        "category": "Drinks"
+      },
+      {
+        "id": 3,
+        "name": "Chocolate Cake",
+        "description": "A warm,chocolate Cake topped with vanilla ice cream and drizzled with chocolate sauce.",
+        "price": 4.99,
+        "category": "desserts"
+      },
+      {
+        "id": 4,
+        "name": "pancakes",
+        "description":"Fluffy pancakes served with maple syrup and a side of fresh berries.",
+        "price": 3.99,
+        "category": "appetizer"
+      },
+      {
+        "id":5,
+        "name": "Vegetables",
+        "description":"A mixture of Veges served with creamy mayonesse.",
+        "price":7.00,
+        "category": "appetizer"
+     }
+    ]
+  }
+
+      
+    
